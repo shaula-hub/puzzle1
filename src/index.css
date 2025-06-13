@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to the style section */
+.bg-navy-800 {
+  background-color: #1e40af;
+}

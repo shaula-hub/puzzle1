@@ -1,0 +1,116 @@
+{
+  "images": [
+    {
+      "filename": "picture.jpg",
+      "displayName": "Default Picture"
+    },
+    {
+      "filename": "berries.jpeg",
+      "displayName": "Ягоды"
+    },
+    {
+      "filename": "butterfly.jpeg",
+      "displayName": "Махаон"
+    },
+    {
+      "filename": "coral-clownfish.jpg",
+      "displayName": "Коралловые рыбки"
+    },
+    {
+      "filename": "berries.jpeg",
+      "displayName": "Ягоды"
+    },
+    {
+      "filename": "earth.jpeg",
+      "displayName": "Планета Земля"
+    },
+    {
+      "filename": "flowers1.jpeg",
+      "displayName": "Цветы 1"
+    },
+    {
+      "filename": "flowers2.jpeg",
+      "displayName": "Цветы 2"
+    },
+    {
+      "filename": "fruits1.jpeg",
+      "displayName": "Фрукты 1"
+    },
+    {
+      "filename": "fruits2.jpeg",
+      "displayName": "Фрукты 2"
+    },
+    {
+      "filename": "landscape1.jpeg",
+      "displayName": "Пейзаж 1"
+    },
+    {
+      "filename": "landscape2.jpeg",
+      "displayName": "Пейзаж 2"
+    },
+    {
+      "filename": "landscape3.jpeg",
+      "displayName": "Пейзаж 3"
+    },
+    {
+      "filename": "landscape4.jpeg",
+      "displayName": "Пейзаж 4"
+    },
+    {
+      "filename": "meadow.jpeg",
+      "displayName": "Цветущий луг"
+    },
+    {
+      "filename": "berries.jpeg",
+      "displayName": "Ягоды"
+    },
+    {
+      "filename": "naturmort1.jpeg",
+      "displayName": "Натюрморт 1"
+    },
+    {
+      "filename": "naturmort2.jpeg",
+      "displayName": "Натюрморт 2"
+    },
+    {
+      "filename": "naturmort3.jpeg",
+      "displayName": "Натюрморт 3"
+    },
+    {
+      "filename": "peacock feather.jpeg",
+      "displayName": "Перо павлина"
+    },
+    {
+      "filename": "squirrel.jpeg",
+      "displayName": "Белка"
+    },
+    {
+      "filename": "sun-flower.jpeg",
+      "displayName": "Подсолнух"
+    },
+    {
+      "filename": "sun-flower2.jpeg",
+      "displayName": "Подсолнухи"
+    },
+    {
+      "filename": "tulips.jpeg",
+      "displayName": "Тюльпаны"
+    },
+    {
+      "filename": "berries.jpeg",
+      "displayName": "Ягоды"
+    },
+    {
+      "filename": "vegetables1.jpeg",
+      "displayName": "Овощи 1"
+    },
+    {
+      "filename": "vegetables2.jpeg",
+      "displayName": "Овощи 2"
+    },
+    {
+      "filename": "vegetables2.jpg",
+      "displayName": "Цветущая вишня"
+    }
+  ]
+}
