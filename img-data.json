@@ -1,0 +1,192 @@
+{
+  "images": [
+    {
+      "filename": "picture.jpg",
+      "displayName": "Default Picture"
+    },
+    {
+      "filename": "berries.jpeg",
+      "displayName": "Ягоды"
+    },
+    {
+      "filename": "butterfly.jpeg",
+      "displayName": "Махаон"
+    },
+    {
+      "filename": "coral-clownfish.jpg",
+      "displayName": "Коралловые рыбки"
+    },
+    {
+      "filename": "earth.jpeg",
+      "displayName": "Планета Земля"
+    },
+    {
+      "filename": "flowers1.jpeg",
+      "displayName": "Цветы 1"
+    },
+    {
+      "filename": "flowers2.jpeg",
+      "displayName": "Цветы 2"
+    },
+    {
+      "filename": "fruits1.jpeg",
+      "displayName": "Фрукты 1"
+    },
+    {
+      "filename": "fruits2.jpeg",
+      "displayName": "Фрукты 2"
+    },
+    {
+      "filename": "landscape1.jpeg",
+      "displayName": "Пейзаж 1"
+    },
+    {
+      "filename": "landscape2.jpeg",
+      "displayName": "Пейзаж 2"
+    },
+    {
+      "filename": "landscape3.jpeg",
+      "displayName": "Пейзаж 3"
+    },
+    {
+      "filename": "landscape4.jpeg",
+      "displayName": "Пейзаж 4"
+    },
+    {
+      "filename": "meadow.jpeg",
+      "displayName": "Цветущий луг"
+    },
+    {
+      "filename": "naturmort1.jpeg",
+      "displayName": "Натюрморт 1"
+    },
+    {
+      "filename": "naturmort2.jpeg",
+      "displayName": "Натюрморт 2"
+    },
+    {
+      "filename": "naturmort3.jpeg",
+      "displayName": "Натюрморт 3"
+    },
+    {
+      "filename": "peacock feather.jpeg",
+      "displayName": "Перо павлина"
+    },
+    {
+      "filename": "squirrel.jpeg",
+      "displayName": "Белка"
+    },
+    {
+      "filename": "sun-flower.jpeg",
+      "displayName": "Подсолнух"
+    },
+    {
+      "filename": "sun-flower2.jpeg",
+      "displayName": "Подсолнухи"
+    },
+    {
+      "filename": "tulips.jpeg",
+      "displayName": "Тюльпаны"
+    },
+    {
+      "filename": "vegetables1.jpeg",
+      "displayName": "Овощи 1"
+    },
+    {
+      "filename": "vegetables2.jpeg",
+      "displayName": "Овощи 2"
+    },
+    {
+      "filename": "phuket1.jpg",
+      "displayName": "Пхукет 1"
+    },
+    {
+      "filename": "phuket2.jpg",
+      "displayName": "Пхукет 2"
+    },
+    {
+      "filename": "strawberry-mojito.jpg",
+      "displayName": "Мохито с клубникой"
+    },
+    {
+      "filename": "grilled-salmon.jpg",
+      "displayName": "Лосось-гриль"
+    },
+    {
+      "filename": "Гавайская пицца.jpeg",
+      "displayName": "Гавайская пицца"
+    },
+    {
+      "filename": "Кувшинки.jpg",
+      "displayName": "Кувшинки"
+    },
+    {
+      "filename": "Цветы полевые 1.jpg",
+      "displayName": "Цветы полевые 1"
+    },
+    {
+      "filename": "Цветы полевые 2.jpg",
+      "displayName": "Цветы полевые 2"
+    },
+    {
+      "filename": "Eagle Nebula.jpg",
+      "displayName": "Туманность Орёл"
+    },
+    {
+      "filename": "Jupyter.jpg",
+      "displayName": "Юпитер"
+    },
+    {
+      "filename": "Star Forming Region NGC 3603.jpg",
+      "displayName": "Область звездообразования NGC 3603"
+    },
+    {
+      "filename": "Галактика Водоворот.jpg",
+      "displayName": "Галактика Водоворот"
+    },
+    {
+      "filename": "Галактики Квинтета Стефана.jpg",
+      "displayName": "Галактики Квинтета Стефана"
+    },
+    {
+      "filename": "Звездное скопление Westerlund 2.jpg",
+      "displayName": "Звездное скопление Westerlund 2"
+    },
+    {
+      "filename": "Крабовидная туманность.jpg",
+      "displayName": "Крабовидная туманность"
+    },
+    {
+      "filename": "Планетарная туманность Бабочка.jpg",
+      "displayName": "Планетарная туманность Бабочка"
+    },
+    {
+      "filename": "Пылевая туманность возле звезды V838 Единорога.jpg",
+      "displayName": "Пылевая туманность возле звезды V838 Единорога"
+    },
+    {
+      "filename": "Спиральная галактика M61.jpg",
+      "displayName": "Спиральная галактика M61"
+    },
+    {
+      "filename": "Спиральная галактика M100.jpg",
+      "displayName": "Спиральная галактика M100"
+    },
+    {
+      "filename": "Сталкивающиеся галактики Антенны.jpg",
+      "displayName": "Сталкивающиеся галактики Антенны"
+    },
+    {
+      "filename": "Туманность в созвездии Киль.jpg",
+      "displayName": "Туманность в созвездии Киль"
+    },
+    {
+      "filename": "Туманность Конская Голова (ИК).jpg",
+      "displayName": "Туманность Конская Голова (ИК)"
+    },
+    {
+      "filename": "blossom1.jpeg",
+      "displayName": "Цветущая вишня"
+    }
+  ]
+}
