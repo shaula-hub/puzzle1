@@ -1,85 +1,87 @@
-// Perform horizontal shift with provided pieces array
-const performHorizontalShiftWithPieces = (
-  piecesArray,
-  draggedPieceRef,
-  row,
-  fromCol,
-  toCol
-) => {
-  const newPieces = [...piecesArray];
+switch (
+  e.code // Use e.code instead of e.key
+) {
+  case "ArrowLeft":
+  case "Numpad4":
+    e.preventDefault();
+    newFocusedPiece = pieces.find(
+      (p) =>
+        p.currentRow === currentPiece.currentRow &&
+        p.currentCol === currentPiece.currentCol - 1
+    );
+    // Use e.shiftKey directly from the event
+    if (e.shiftKey && !keyboardDragMode && newFocusedPiece) {
+      shouldStartDrag = true;
+    }
+    break;
 
-  if (toCol < fromCol) {
-    for (let col = fromCol - 1; col >= toCol; col--) {
-      const piece = newPieces.find(
-        (p) => p.currentRow === row && p.currentCol === col
-      );
-      if (piece) {
-        piece.currentCol = col + 1;
+  case "ArrowRight":
+  case "Numpad6":
+    e.preventDefault();
+    newFocusedPiece = pieces.find(
+      (p) =>
+        p.currentRow === currentPiece.currentRow &&
+        p.currentCol === currentPiece.currentCol + 1
+    );
+    if (e.shiftKey && !keyboardDragMode && newFocusedPiece) {
+      shouldStartDrag = true;
+    }
+    break;
+
+  case "ArrowUp":
+  case "Numpad8":
+    e.preventDefault();
+    newFocusedPiece = pieces.find(
+      (p) =>
+        p.currentRow === currentPiece.currentRow - 1 &&
+        p.currentCol === currentPiece.currentCol
+    );
+    if (e.shiftKey && !keyboardDragMode && newFocusedPiece) {
+      shouldStartDrag = true;
+    }
+    break;
+
+  case "ArrowDown":
+  case "Numpad2":
+    e.preventDefault();
+    newFocusedPiece = pieces.find(
+      (p) =>
+        p.currentRow === currentPiece.currentRow + 1 &&
+        p.currentCol === currentPiece.currentCol
+    );
+    if (e.shiftKey && !keyboardDragMode && newFocusedPiece) {
+      shouldStartDrag = true;
+    }
+    break;
+
+  case "Numpad5":
+    e.preventDefault();
+    rotatePiece(focusedPiece);
+    return;
+
+  case "Space":
+    e.preventDefault();
+    if (focusedPiece !== null) {
+      const currentPiece = pieces.find((p) => p.id === focusedPiece);
+      if (currentPiece) {
+        console.log(
+          "Showing neighbors for piece:",
+          currentPiece.id,
+          "at original position:",
+          currentPiece.originalRow,
+          currentPiece.originalCol
+        );
+        const neighbors = findNeighborsInSolvedState(currentPiece);
+        console.log("Found neighbors:", neighbors);
+        setAnimatedNeighbors([currentPiece.id, ...neighbors]);
+
+        setTimeout(() => {
+          setAnimatedNeighbors([]);
+        }, 2000);
       }
     }
-  } else {
-    for (let col = fromCol + 1; col <= toCol; col++) {
-      const piece = newPieces.find(
-        (p) => p.currentRow === row && p.currentCol === col
-      );
-      if (piece) {
-        piece.currentCol = col - 1;
-      }
-    }
-  }
+    return;
 
-  const draggedPieceInArray = newPieces.find(
-    (p) => p.id === draggedPieceRef.id
-  );
-  if (draggedPieceInArray) {
-    draggedPieceInArray.currentCol = toCol;
-  }
-
-  // Check if puzzle is solved after move
-  setTimeout(() => checkForCompletion(newPieces), 100);
-
-  return newPieces;
-};
-
-// Perform vertical shift with provided pieces array
-const performVerticalShiftWithPieces = (
-  piecesArray,
-  draggedPieceRef,
-  col,
-  fromRow,
-  toRow
-) => {
-  const newPieces = [...piecesArray];
-
-  if (toRow < fromRow) {
-    for (let row = fromRow - 1; row >= toRow; row--) {
-      const piece = newPieces.find(
-        (p) => p.currentRow === row && p.currentCol === col
-      );
-      if (piece) {
-        piece.currentRow = row + 1;
-      }
-    }
-  } else {
-    for (let row = fromRow + 1; row <= toRow; row++) {
-      const piece = newPieces.find(
-        (p) => p.currentRow === row && p.currentCol === col
-      );
-      if (piece) {
-        piece.currentRow = row - 1;
-      }
-    }
-  }
-
-  const draggedPieceInArray = newPieces.find(
-    (p) => p.id === draggedPieceRef.id
-  );
-  if (draggedPieceInArray) {
-    draggedPieceInArray.currentRow = toRow;
-  }
-
-  // Check if puzzle is solved after move
-  setTimeout(() => checkForCompletion(newPieces), 100);
-
-  return newPieces;
-};
+  default:
+    return;
+}
